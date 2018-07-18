@@ -2,7 +2,6 @@ html,
 body {
   height: 100%;
 }
-
 body {
   display: flex;
   align-items: center;
@@ -10,4 +9,11 @@ body {
   text-align: center;
   background: no-repeat center center;
   background-size: cover;
+  font-family: $open-sans;
+  .container {
+    @media screen and (min-width: $tht-xl) {
+      min-width: 1314px;
+      max-width: 1314px;
+    }
+  }
 }

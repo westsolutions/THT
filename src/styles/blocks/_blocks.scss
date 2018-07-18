@@ -1,0 +1,114 @@
+.hero-banner {
+  background-image: -webkit-linear-gradient(bottom, rgba(124, 210, 233, 0.42) 0%, #005686 100%);
+  background-image: -o-linear-gradient(bottom, rgba(124, 210, 233, 0.42) 0%, #005686 100%);
+  background-image: linear-gradient(to top, rgba(124, 210, 233, 0.42) 0%, #005686 100%);
+  color: $tht-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  @media screen and (min-width: $md) {
+    height: 712px;
+  }
+}
+.promotion-block {
+  width: 100%;
+  max-width: 310px;
+  background-color: $tht-white;
+  .img-block {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .content-block {
+    border-top: 1px solid $tht-blue;
+    text-align: center;
+    padding: 28px;
+    color: $tht-grey;
+    font-size: 14px;
+    line-height: 1.29;
+  }
+  .title {
+    color: $tht-blue;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 1.67px;
+    span {
+      color: $tht-light-blue;
+      font-size: 17px;
+      font-weight: 700;
+      font-style: italic;
+    }
+  }
+}
+.hor-gradient-bg-block {
+  text-align: center;
+  width: 100%;
+  @extend .vert-blue-grad;
+}
+.train-block {
+  width: 100%;
+  @media screen and (min-width: $sm) {
+    width: 200px;
+  }
+  @media screen and (min-width: $md) {
+    width: 350px;
+  }
+  @media screen and (min-width: $lg) {
+    width: 450px;
+  }
+  @media screen and (min-width: $tht-xl) {
+    width: 200px;
+  }
+  h5 {
+    margin-bottom: 20px;
+    min-height: 68px;
+  }
+  p, ul {
+    min-height: 232px;
+    margin-bottom: 35px;
+  }
+  .btn {
+    width: 200px;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 2.88;
+  }
+}
+.blue-round-icon {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-color: $tht-light-blue;
+  border-radius: 100%;
+}
+.location-block {
+  background-color: $tht-white;
+  text-align: center;
+  .location-content {
+    padding: 25px;
+  }
+  h3 {
+    line-height: 1.4;
+    margin-bottom: 5px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  &.with-img {
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 25px;
+    }
+  }
+  .btn {
+    width: 100%;
+  }
+}
+.gold-gym-block {
+  background-color: $tht-white;
+}

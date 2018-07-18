@@ -1,0 +1,30 @@
+.btn {
+  display: inline-block;
+  border-radius: 0;
+}
+.main-btn {
+  background-color: $tht-blue;
+  color: $tht-white;
+  border: none;
+  &:hover, &:active {
+    background-color: $tht-light-blue;
+    text-decoration: none;
+  }
+}
+.txt-btn {
+  background-color: transparent;
+  border: 1px solid $tht-white;
+  color: $tht-white;
+  &:hover, &:active {
+    background-color: $tht-light-blue;
+    text-decoration: none;
+  }
+}
+.blue-link {
+  color: $tht-light-blue;
+  text-decoration: underline;
+}
+.gradient-link {
+  background-image: linear-gradient(129deg, rgba(124, 210, 233, 0.81) 0%, #005686 100%);
+  color: $tht-white;
+}
