@@ -3,3 +3,17 @@
   background-image: -o-linear-gradient(39deg, rgba(124, 210, 233, 0.81) 0%, #005686 100%);
   background-image: linear-gradient(129deg, rgba(124, 210, 233, 0.81) 0%, #005686 100%);
 }
+.grey-gradient-bg {
+  background-image: -webkit-linear-gradient(top left, #ffffff 0%, #efeaea 100%);
+  background-image: -o-linear-gradient(top left, #ffffff 0%, #efeaea 100%);
+  background-image: linear-gradient(to bottom right, #ffffff 0%, #efeaea 100%);
+}
+.white-bg {
+  background-color: $tht-white;
+}
+.dark {
+  color: $tht-blue;
+}
+.light {
+  color: $tht-white;
+}

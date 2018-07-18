@@ -1,0 +1,38 @@
+.home-hero-banner {
+  height: 821px;
+  background-image: url("/src/images/home-hero.png");
+  h1 {
+    font-size: 55px;
+    line-height: 84px;
+    margin-bottom: 45px;
+    span {
+      font-size: 60px;
+      font-weight: 700;
+      font-style: italic;
+    }
+  }
+  .btn-wrapper {
+    margin: 45px 0 145px;
+  }
+  .btn.txt-btn {
+    font-size: 25px;
+    line-height: 1.87;
+    padding: 6px 43px;
+    span {
+      font-size: 30px;
+      font-weight: 700;
+      font-style: italic;
+    }
+  }
+}
+.promations-container {
+  max-width: 1315px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.promotion-block {
+  &:not(:last-of-type) {
+    margin-right: 25px;
+  }
+}

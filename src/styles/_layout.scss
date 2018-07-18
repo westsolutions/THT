@@ -3,12 +3,6 @@ body {
   height: 100%;
 }
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background: no-repeat center center;
-  background-size: cover;
   font-family: $open-sans;
   .container {
     @media screen and (min-width: $tht-xl) {

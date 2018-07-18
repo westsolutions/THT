@@ -17,7 +17,9 @@
   color: $tht-white;
   &:hover, &:active {
     background-color: $tht-light-blue;
+    border: 1px solid $tht-light-blue;
     text-decoration: none;
+    color: $tht-white;
   }
 }
 .blue-link {

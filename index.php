@@ -1,27 +1,87 @@
-<?php require_once("app/init.php"); ?>
-<!doctype html>
+<?php require_once('header.php'); ?>
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+<div class="hero-banner home-hero-banner">
+  <div class="hero-gradient"></div>
+  <div class="banner-content">
+    <div class="title-block">
+      <h1><span>A personal trainer</span> in Montreal <br> who will cater to your lifestyle</h1>
+    </div>
+    <div class="btn-wrapper">
+      <a href="#" class="btn txt-btn">Call for a <span>free</span> consultation</a>
+    </div>
+    <div class="menu-block">
+      <p>CHOOSE WHAT’S RIGHT FOR YOU:</p>
+      <ul class="banner-menu">
+        <li><a href="#">
+          <span class="icon"><img src="src/images/tht-icons-home.svg" alt=""></span><br>
+          Home Training
+        </a></li>
+        <li><a href="#">
+          <span class="icon"><img src="src/images/tht-icon-senior.svg" alt=""></span><br>
+          Senior Training
+        </a></li>
+        <li><a href="#">
+          <span class="icon"><img src="src/images/golds-logo.png" alt=""></span><br>
+          THT® Gold’s Gyms
+        </a></li>
+        <li><a href="#">
+          <span class="icon"><img src="src/images/share-icon.png" alt=""></span><br>
+          THT® Saint-Lambert Gym
+        </a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="promotions-block grey-gradient-bg">
+  <div class="title-block">
+    <h2>Promotions</h2>
+  </div>
+  <div class="promations-container">
+    <div class="promotion-block">
+      <div class="img-block">
+        <img src="src/images/promotion1.png" alt="">
+      </div>
+      <div class="content-block">
+        <div class="title"><span>Want to drop the pounds?</span><br> THT® 10-week <br> weight loss package</div>
+        <p>Free fitness assesssment</p>
+        <p>2x per week personal training</p>
+        <p>Meal plan for duration</p>
+        <p>15% off first massage</p>
+      </div>
+    </div>
+    <div class="promotion-block">
+      <div class="img-block">
+        <img src="src/images/promotion2.png" alt="">
+      </div>
+      <div class="content-block">
+        <div class="title"><span>Get fit together</span><br> 2 for 1 initial <br> THT® assessment </div>
+        <p>Lorem</p>
+        <p>Ipsum</p>
+        <p>Dolor sit amet</p>
+        <p>Consectetur dipiscing elit</p>
+      </div>
+    </div>
+    <div class="promotion-block">
+      <div class="img-block">
+        <img src="src/images/promotion3.png" alt="">
+      </div>
+      <div class="content-block">
+        <div class="title"><span>THT® season special</span><br> 10 + 1 free</div>
+        <p>+ 2 weeks of free nutrition</p>
+        <p>+ 15% off first massage</p>
+      </div>
+    </div>
+    <div class="promotion-block">
+      <div class="img-block">
+        <img src="src/images/promotion4.png" alt="">
+      </div>
+      <div class="content-block">
+        <div class="title"><span>THT® App</span><br> Nutrition on the go</div>
+        <p>No more counting calories or figuring out what to eat. Meals and snacks created for you at the touch of your fingers with our easy to use app.</p>
+        <p class="bold">As low as $24.99.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-  <title>Barebones</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,600,600i,700,700i" rel="stylesheet">
-  <link rel="stylesheet" href="<?= asset('styles/main.css') ?>">
-
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
-
-<!-- <body style="background-image:url(<?= asset('images/unsplash.jpg') ?>)"> -->
-<body>
-  <button class="btn main-btn">Our services</button>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="<?= asset('scripts/main.js') ?>"></script>
-</body>
-</html>
+<?php require_once('footer.php'); ?>
