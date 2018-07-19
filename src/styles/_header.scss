@@ -1,0 +1,115 @@
+.sub-navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  min-height: 44px;
+  border-bottom: 1px solid $tht-white;
+  width: 100%;
+  z-index: 1;
+  p {
+    margin-bottom: 0;
+    a {
+      font-size: 16px;
+      color: $tht-white;
+      span {
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 1.27px;
+        color: $tht-light-blue;
+      }
+    }
+  }
+  ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    li {
+      list-style-type: none;
+      margin-left: 15px;
+      @media screen and (min-width: $md) {
+        display: inline-block;
+      }
+      a {
+        color: #e4e8e9;
+        font-size: 10px;
+      }
+    }
+  }
+}
+.sub-navbar-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+.navbar.fixed-top {
+  padding: 0 15px;
+  top: 44px;
+  transition: all ease 0.3s;
+  .navbar-brand {
+    color: $tht-white;
+  }
+  .logo-dark {
+    display: none;
+  }
+  .navbar-toggler {
+    color: $tht-white;
+  }
+}
+.navbar-nav {
+  margin-right: -21px;
+  .nav-link {
+    color: $tht-white;
+    line-height: 1.87;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0 21px!important;
+    transition: all aese 0.3s;
+    &:hover {
+      color: $tht-blue;
+      background-color: $tht-white;
+      border-radius: 14px;
+    }
+  }
+  .nav-item {
+    margin-left: 5px;
+  }
+  .nav-item.active {
+    a {
+      color: $tht-blue;
+      background-color: $tht-white;
+      border-radius: 14px;
+    }
+  }
+}
+.navbar.fixed-top.header-scroll {
+  background-color: $tht-white;
+  top: 0;
+  transition: all ease 0.3s;
+  .navbar-toggler {
+    color: $tht-blue;
+  }
+  .navbar-text {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  .logo {
+    display: none;
+  }
+  .logo-dark {
+    display: inline-block;
+  }
+  .nav-link {
+    color: $tht-blue;
+    &:hover {
+      color: $tht-white;
+      background-color: $tht-blue;
+    }
+  }
+  .nav-item.active {
+    a {
+      color: $tht-white;
+      background-color: $tht-blue;
+    }
+  }
+}

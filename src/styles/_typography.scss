@@ -1,11 +1,17 @@
 h1 {
-  font-size: 70px;
-  color: #fff
+  font-size: 35px;
+  color: #fff;
+  @media screen and (min-width: $md) {
+    font-size: 70px;
+  }
 }
 h2 {
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 700;
   font-style: italic;
+  @media screen and (min-width: $md) {
+    font-size: 40px;
+  }
 }
 h3 {
   font-size: 32px;
