@@ -10461,16 +10461,16 @@ __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).ready(function () {
   console.log(title + " is ready.");
 
   __WEBPACK_IMPORTED_MODULE_0_jquery___default()(function () {
-    var navbar = __WEBPACK_IMPORTED_MODULE_0_jquery___default()(".navbar");
+    var mainNavbar = __WEBPACK_IMPORTED_MODULE_0_jquery___default()(".main-navbar");
     var subNavbar = __WEBPACK_IMPORTED_MODULE_0_jquery___default()(".sub-navbar");
     __WEBPACK_IMPORTED_MODULE_0_jquery___default()(window).scroll(function () {
       var scroll = __WEBPACK_IMPORTED_MODULE_0_jquery___default()(window).scrollTop();
 
       if (scroll >= 44) {
-        navbar.addClass("header-scroll");
+        mainNavbar.addClass("header-scroll");
         subNavbar.hide();
       } else {
-        navbar.removeClass("header-scroll");
+        mainNavbar.removeClass("header-scroll");
         subNavbar.show();
       }
     });

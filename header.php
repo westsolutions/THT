@@ -33,29 +33,33 @@
     </div>
   </div>
 </div>
-<nav class="navbar navbar-expand-lg fixed-top justify-content-between">
-  <a class="navbar-brand" href="#">
-    <img src="<?= asset('images/logo.svg') ?>" alt="" class="logo"> <img src="<?= asset('images/logo-dark.svg') ?>" alt="" class="logo-dark">
-    <span class="navbar-text"> TOTAL HOME TRAINING</span>
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-  </button>
+<div class="fixed-top main-navbar">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg justify-content-between">
+      <a class="navbar-brand" href="#">
+        <img src="<?= asset('images/logo.svg') ?>" alt="" class="logo"> <img src="<?= asset('images/logo-dark.svg') ?>" alt="" class="logo-dark">
+        <span class="navbar-text"> TOTAL HOME TRAINING</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+      </button>
 
-  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Services</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Locations</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Services</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Locations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </div>
-</nav>
+</div>

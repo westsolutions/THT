@@ -29,9 +29,9 @@
             <div class="col-6">
               <h6>CONTACT</h6>
               <ul>
-                <li><a href="#">450.465.1426</a></li>
-                <li><a href="#">1.888.708.5582 (toll free)</a></li>
-                <li><a href="#">info@totalhometraining.com</a></li>
+                <li><a href="tel:4504651426">450.465.1426</a></li>
+                <li><a href="tel:18887085582">1.888.708.5582 (toll free)</a></li>
+                <li><a href="http://www.totalhometraining.com/">info@totalhometraining.com</a></li>
                 <li>
                   <ul class="soc-icons">
                     <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>

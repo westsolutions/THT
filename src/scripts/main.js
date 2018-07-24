@@ -8,16 +8,16 @@ $(document).ready(function(){
   console.log(title + " is ready.");
 
   $(function() {
-    var navbar = $(".navbar");
+    var mainNavbar = $(".main-navbar");
     var subNavbar = $(".sub-navbar");
     $(window).scroll(function() {    
       var scroll = $(window).scrollTop();
   
       if (scroll >= 44) {
-          navbar.addClass("header-scroll");
+          mainNavbar.addClass("header-scroll");
           subNavbar.hide();
       } else {
-          navbar.removeClass("header-scroll");
+          mainNavbar.removeClass("header-scroll");
           subNavbar.show();
       }
     });

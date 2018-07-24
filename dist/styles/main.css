@@ -10552,22 +10552,26 @@ a.text-dark:focus {
   padding: 8px 0;
 }
 
-.navbar.fixed-top {
-  padding: 0 15px;
+.main-navbar.fixed-top {
   top: 44px;
   -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
 
-.navbar.fixed-top .navbar-brand {
+.main-navbar.fixed-top .navbar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.main-navbar.fixed-top .navbar .navbar-brand {
   color: #fff;
 }
 
-.navbar.fixed-top .logo-dark {
+.main-navbar.fixed-top .navbar .logo-dark {
   display: none;
 }
 
-.navbar.fixed-top .navbar-toggler {
+.main-navbar.fixed-top .navbar .navbar-toggler {
   color: #fff;
 }
 
@@ -10601,40 +10605,45 @@ a.text-dark:focus {
   border-radius: 14px;
 }
 
-.navbar.fixed-top.header-scroll {
+.main-navbar.fixed-top.header-scroll {
   background-color: #fff;
   top: 0;
   -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
 
-.navbar.fixed-top.header-scroll .navbar-toggler {
-  color: #005686;
-}
-
-.navbar.fixed-top.header-scroll .navbar-text {
+.main-navbar.fixed-top.header-scroll .navbar {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-.navbar.fixed-top.header-scroll .logo {
-  display: none;
-}
-
-.navbar.fixed-top.header-scroll .logo-dark {
-  display: inline-block;
-}
-
-.navbar.fixed-top.header-scroll .nav-link {
+.main-navbar.fixed-top.header-scroll .navbar .navbar-toggler {
   color: #005686;
 }
 
-.navbar.fixed-top.header-scroll .nav-link:hover {
+.main-navbar.fixed-top.header-scroll .navbar .navbar-text {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.main-navbar.fixed-top.header-scroll .navbar .logo {
+  display: none;
+}
+
+.main-navbar.fixed-top.header-scroll .navbar .logo-dark {
+  display: inline-block;
+}
+
+.main-navbar.fixed-top.header-scroll .navbar .nav-link {
+  color: #005686;
+}
+
+.main-navbar.fixed-top.header-scroll .navbar .nav-link:hover {
   color: #fff;
   background-color: #005686;
 }
 
-.navbar.fixed-top.header-scroll .nav-item.active a {
+.main-navbar.fixed-top.header-scroll .navbar .nav-item.active a {
   color: #fff;
   background-color: #005686;
 }
@@ -10856,6 +10865,10 @@ p .big {
   color: #fff;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 html,
 body {
   height: 100%;
@@ -10950,6 +10963,7 @@ body {
   font-size: 20px;
   line-height: 1.4;
   letter-spacing: 1.67px;
+  margin-bottom: 20px;
 }
 
 .promotion-block .title span {
