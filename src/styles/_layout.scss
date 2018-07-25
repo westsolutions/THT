@@ -5,10 +5,4 @@ body {
 body {
   font-family: $open-sans;
   background-color: $body-color;
-  .container {
-    @media screen and (min-width: $tht-xl) {
-      min-width: 1314px;
-      max-width: 1314px;
-    }
-  }
 }

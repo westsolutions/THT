@@ -152,21 +152,30 @@
   }
 }
 .gold-gym-block {
-  padding: 35px 30px;
+  padding: 35px 0;
   text-align: center;
+  background-color: $tht-white;
+  .gold-gym-block-img {
+    padding: 0 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
   h3 {
     margin-bottom:0;
+    color: $tht-blue;
   }
   img {
     width: 100%;
     height: auto;
-    margin-top: 40px;
+    //margin-top: 40px;
   }
   .btn {
-    margin-bottom: 35px;
+    //margin-bottom: 35px;
   }
   p {
     margin-top: 35px;
+    color: $tht-grey;
   }
 }
 .programs-block {
@@ -200,13 +209,29 @@
   }
 }
 .team-block {
+  background-color: $tht-white;
+  width: 100%;
+  margin-bottom: 30px;
+  @media screen and (min-width: $md) {
+    margin-bottom: 60px;
+  }
   img {
     width: 100%;
     height: auto;
   }
   .team-block-content {
     border-top: 1px solid $tht-blue;
-    padding: 23px 45px 40px;
+    padding: 23px 10px 25px;
+    text-align: center;
+    @media screen and (min-width: $md) {
+      padding: 23px 15px 40px;
+    }
+    @media screen and (min-width: $lg) {
+      padding: 23px 20px 40px;
+    }
+    @media screen and (min-width: $xl) {
+      padding: 23px 45px 40px;
+    }
   }
   h5 {
     color: $tht-light-blue;
@@ -215,17 +240,24 @@
   }
   p {
     color: $tht-blue;
-    font-size: 20px;
+    font-size: 13px;
     line-height: 1.4;
     text-transform: uppercase;
-    letter-spacing: 1.67px;
+    letter-spacing: 0.5px;
     margin-bottom: 20px;
+    @media screen and (min-width: $md) {
+      font-size: 20px;
+      letter-spacing: 1.67px;
+    }
   }
-  .btn {
-    font-size: 17px;
+  .btn.main-btn {
+    font-size: 12px;
     font-weight: 700;
     font-style: italic;
     line-height: 2.88;
+    @media screen and (min-width: $md) {
+      font-size: 17px;
+    }
   }
 }
 .cost-block {
@@ -249,19 +281,31 @@
   padding: 13px;
   display: flex;
   flex-direction: column;
-  @media screen and (min-width: $lg) {
+  background-color: $tht-white;
+  @media screen and (min-width: $sm) {
     flex-direction: row;
+    align-items: center;
   }
   .content-container {
     width: 100%;
     text-align: center;
+    padding: 15px 0;
+    @media screen and (min-width: $md) {
+      width: 530px;
+      padding: 0;
+    }
     div {
-      margin-bottom: 50px;   
       @media screen and (min-width: $sm) {
         display: inline-block;
       }
-      @media screen and (min-width: $lg) {
+      @media screen and (min-width: $md) {
         display: block;
+      }
+    }
+    div:not(:last-of-type) {
+      margin-bottom: 25px;
+      @media screen and (min-width: $md) {
+        margin-bottom: 50px;
       }
     }
   }
@@ -270,18 +314,31 @@
     @media screen and (min-width: $lg) {
       width: 530px;
     }
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
   h3 {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    color: $tht-blue;
+    @media screen and (min-width: $md) {
+       margin-bottom: 30px;
+    }
   }
   p {
-    font-size: 20px;
+    font-size: 14px;
     line-height: 1.25;
+    color: $tht-grey;
+    @media screen and (min-width: $lg) {
+      font-size: 20px;
+    }
   }
 }
 .result-block {
   display: flex;
   flex-direction: column;
+  padding-top: 35px;
   @media screen and (min-width: $lg) {
     flex-direction: row;
     align-items: center;
@@ -290,19 +347,37 @@
   .img-block {
     width: 100%;
     max-width: 511px;
+    margin-top: 20px;
+    @media screen and (min-width: $md) {
+      margin-top: 0;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
     img {
       width: 100%;
       height: auto;
     }
   }
   .content-block {
+    text-align: center;
+    padding: 0 15px;
+    @media screen and (min-width: $lg) {
+      padding-left: 125px;
+    }
     h2 {
       margin-bottom: 16px;
     }
     p {
-      font-size: 20px;
+      font-size: 16px;
       color: $tht-grey;
       margin-bottom: 20px;
+      @media screen and (min-width: $md) {
+        font-size: 16px;
+      }
+      @media screen and (min-width: $lg) {
+        font-size: 20px;
+      }
     }
     .color {
       color: $tht-light-blue;
@@ -313,16 +388,24 @@
 .discount-block {
   display: flex;
   flex-direction: column;
-  @media screen and (min-width: $md) {
+  @media screen and (min-width: $sm) {
     flex-direction: row;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
   }
   img:first-of-type {
-    width: 59.17%;
+     width: 100%;
+     margin-bottom: 20px;
+     @media screen and (min-width: $sm) {
+      width: 59.17%;
+      margin-bottom: 0;
+    }
   }
   img:nth-of-type(2) {
-    width: 38,62%;
+     width: 100%;
+     @media screen and (min-width: $sm) {
+      width: 38.62%;
+    }
   }
 }
 .start-training-block {
@@ -479,4 +562,21 @@
 .title-block {
   text-align: center;
   width: 100%;
+}
+.gg-container {
+  padding: 100px 0;
+}
+.video-section {
+  iframe {
+    height: 300px;
+    @media screen and (min-width: $md) {
+      height: 450px;
+    }
+    @media screen and (min-width: $lg) {
+      height: 550px;
+    }
+    @media screen and (min-width: $xl) {
+      height: 614px;
+    }
+  }
 }

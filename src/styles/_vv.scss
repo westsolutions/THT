@@ -1,0 +1,74 @@
+.video-section, .discount-block {
+  margin: 100px 0;
+}
+.team-section {
+  margin-bottom: 20px;
+  @media screen and (min-width: $md) {
+    margin-bottom: 40px;
+  }
+  .title-block {
+    margin-bottom: 20px;
+    @media screen and (min-width: $md) {
+      margin-bottom: 80px;
+    }
+  }
+  .btn.main-btn {
+    padding: 0 20px;
+    @media screen and (min-width: $sm) {
+      padding: 0 40px;
+    }
+  }
+}
+.result-block {
+  .call-block {
+    margin-top: 35px;
+    span {
+      font-size: inherit;
+    }
+  }
+}
+.gg-hero-banner {
+  height: 712px;
+  background-image: url("/src/images/gg-vsl-hero.png");
+  padding-bottom: 60px;
+  .hero-logo {
+    margin-bottom: 30px;
+  }
+  h1 {
+    line-height: 1.37;
+    margin-bottom: 22px;
+  }
+}
+.gold-gym-block-content {
+  padding: 30px 20px 0 20px;
+  .btn.main-btn {
+    padding: 12px;
+    width: 199px;
+    margin-bottom: 15px;
+    @media screen and (min-width: $sm) {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}
+.gg-page {
+  .btn-wrapper {
+    .btn.main-btn {
+      width: 100%;
+      padding: 40px 0;
+      font-size: 16px;
+      @media screen and (min-width: $sm) {
+        font-size: 25px;
+      }
+      i {
+        font-weight: bold;
+      }
+      span {
+        margin-left: 10px;
+        @media screen and (min-width: $sm) {
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+}

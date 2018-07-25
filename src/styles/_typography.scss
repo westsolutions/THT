@@ -17,9 +17,12 @@ h2 {
   }
 }
 h3 {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
   font-style: italic;
+  @media screen and (min-width: $md) {
+    font-size: 32px;
+  }
 }
 h4 {
   font-size: 20px;

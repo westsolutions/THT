@@ -1,3 +1,12 @@
+.home-page {
+  .container {
+    @media screen and (min-width: $tht-xl) {
+      min-width: 1314px;
+      max-width: 1314px;
+    }
+  }
+}
+
 .home-hero-banner {
   height: 781px;
   background-image: url("/src/images/home-hero.png");
