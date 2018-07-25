@@ -168,18 +168,18 @@
       <div class="title-block">
         <h2>Testimonials</h2>
       </div>
-      <div class="col-12 col-md-6 col-xl-4">
+      <div class="col-12 col-md-10 offset-md-1 col-lg-4 offset-lg-0">
         <div class="border-block testimonials-video-block">
           <div class="text-part">
             <h5>Donna Saker <span>from</span></h5>
             <img src="src/images/testimonials-logo1.png" alt="">
           </div>
           <div class="video-block">
-            <iframe width="318" height="239" src="https://www.youtube.com/embed/aNzjbqRfpWI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="100%" height="239" src="https://www.youtube.com/embed/aNzjbqRfpWI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
-      <div class="col-12 col-xl-4">
+      <div class="col-12 col-lg-4">
         <div class="border-block">
           <div class="content">
             <h5>My THT® trainer is the greatest!</h5>
@@ -188,14 +188,14 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-xl-4">
+      <div class="col-12 col-md-10 offset-md-1 col-lg-4 offset-lg-0">
         <div class="border-block testimonials-video-block">
           <div class="text-part">
             <h5>Suzanne Desautels <span>from</span></h5>
             <img src="src/images/testimonials-logo2.png" alt="">
           </div>
           <div class="video-block">
-            <iframe width="318" height="239" src="https://www.youtube.com/embed/wB3Ta83DMd4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="100%" height="239" src="https://www.youtube.com/embed/wB3Ta83DMd4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>

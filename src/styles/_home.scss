@@ -1,25 +1,41 @@
 .home-hero-banner {
-  height: 821px;
+  height: 781px;
   background-image: url("/src/images/home-hero.png");
+  @media screen and (min-width: $md) {
+    height: 821px;
+  }
   h1 {
-    font-size: 35px;
-    line-height: 54px;
+    font-size: 25px;
+    line-height: 40px;
     margin-bottom: 45px;
-    @media screen and (min-width: $md) {
+    @media screen and (min-width: $sm) {
+      font-size: 40px;
+      line-height: 54px;
+    }
+    @media screen and (min-width: $lg) {
       font-size: 55px;
       line-height: 84px;
     }
     span {
-      font-size: 40px;
+      font-size: 30px;
       font-weight: 700;
       font-style: italic;
-      @media screen and (min-width: $md) {
+      @media screen and (min-width: $sm) {
+        font-size: 45px;
+      }
+      @media screen and (min-width: $lg) {
         font-size: 60px;
       }
     }
   }
   .btn-wrapper {
-    margin: 45px 0 145px;
+     margin: 0 0 45px;
+    @media screen and (min-width: $sm) {
+      margin: 45px 0 65px;
+    }
+    @media screen and (min-width: $lg) {
+      margin: 45px 0 145px;
+    }
   }
   .btn.txt-btn {
     font-size: 18px;
@@ -30,7 +46,7 @@
       font-weight: 700;
       font-style: italic;
     }
-    @media screen and (min-width: $md) {
+    @media screen and (min-width: $sm) {
       font-size: 25px;
       padding: 6px 43px;
       span {
@@ -40,10 +56,16 @@
   }
 }
 .promotions-block {
-  padding: 74px 0 110px;
+  padding: 54px 0 60px;
+  @media screen and (min-width: $md) {
+    padding: 74px 0 110px;
+  }
   .title-block {
     text-align: center;
-    padding: 0 0 55px;
+    padding: 0 0 25px;
+    @media screen and (min-width: $md) {
+      padding: 0 0 55px;
+    }
     h2 {
       margin-bottom: 0;
     }
@@ -57,23 +79,46 @@
 }
 .promotions-container {
   flex-wrap: wrap;
+  justify-content: center;
+  @media screen and (min-width: $md) {
+    justify-content: space-around;
+  }
+  @media screen and (min-width: $lg) {
+    justify-content: center;
+  }
 }
 .call-block {
   padding: 35px 0;
   background-image: linear-gradient(144deg, rgba(124, 210, 233, 0.81) 0%, #005686 100%);
   p {
-    font-size: 25px;
+    font-size: 14px;
     margin-bottom: 0;
+    @media screen and (min-width: $sm) {
+      font-size: 25px;
+    }
     span {
-      font-size: 30px;
+      font-size: 16px;
       font-weight: 700;
       font-style: italic;
+      @media screen and (min-width: $sm) {
+        font-size: 30px;
+      }
+    }
+  }
+  img {
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
+    @media screen and (min-width: $md) {
+      width: 32px;
     }
   }
 }
 .promotion-block {
   &:not(:last-of-type) {
-    margin-right: 25px;
+    @media screen and (min-width: $lg) {
+      margin-right: 25px;
+    }
   }
   .title {
     font-size: 20px;
@@ -102,9 +147,15 @@
   }
 }
 .why-train {
-  padding: 80px 0 130px;
+  padding: 50px 0 30px;
+  @media screen and (min-width: $md) {
+    padding: 80px 0 130px;
+  }
   .title-block {
-    margin-bottom: 55px;    
+    margin-bottom: 25px;
+    @media screen and (min-width: $md) {
+      margin-bottom: 55px;
+    }
   }
   .train-block:not(:last-of-type) {
     position: relative;
@@ -116,33 +167,68 @@
         border-bottom: 1px dashed $tht-blue;
         position: absolute;
         top: 42px;
+        right: -115px;
+      }
+      @media screen and (min-width: $tht-xl) {
         right: -155px;
       }
     }
   }
   .train-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
+    @media screen and (min-width: $sm) {
+      justify-content: space-around;
+    }
+    @media screen and (min-width: $md) {
+      justify-content: space-between;
+    }
   }
 }
 .testimonials {
-  padding-top: 60px;
+  padding-top: 30px;
+  @media screen and (min-width: $md) {
+    padding-top: 60px;
+  }
 
   .title-block {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
+    @media screen and (min-width: $md) {
+      margin-bottom: 40px;
+    }
   }
   .border-block {
     border: 1px solid $tht-white;
-    padding:  0 50px 50px;
+    padding:  0 20px 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    @media screen and (min-width: $sm) {
+      padding:  0 50px 20px;
+    }
+    @media screen and (min-width: $md) {
+      text-align: left;
+      padding:  0 50px 50px;
+     }
+    @media screen and (min-width: $lg) {
+      margin-bottom: 0;
+      padding:  0 20px 20px;
+    }
+    @media screen and (min-width: $xl) {
+      padding:  0 50px 20px;
+    }
     .content {
       h5 {
         margin-top: 30px;
       }
       p {
-        font-size: 14px;
-        line-height: 1.57;
+        font-size: 13px;
+        line-height: 1.4;
+        @media screen and (min-width: $sm) {
+          font-size: 14px;
+          line-height: 1.57;
+        }
       }
       .bold {
         font-style: italic;
@@ -151,7 +237,20 @@
   }
   .text-part {
     padding: 22px 0;
-    min-height: 120px;
+    @media screen and (min-width: $sm) {
+      min-height: 120px;
+    }
+    @media screen and (min-width: $lg) and (max-width: 1199.9px) {
+      min-height: 100px;
+    }
+    img {
+      @media screen and (max-width: 575.9px) {
+        width: 80px;
+      }
+      @media screen and (min-width: $lg) and (max-width: 1199.9px) {
+        width: 55px;
+      }
+    }
   }
   h5 {
     display: inline-block;
@@ -162,8 +261,11 @@
     }
   }
   .btn-wrapper {
-    margin-top: 60px;
+    margin-top: 25px;
     width: 100%;
+    @media screen and (min-width: $md) {
+      margin-top: 60px;
+    }
     .btn.main-btn {
       width: 100%;
       display: block;

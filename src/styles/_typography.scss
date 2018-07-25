@@ -1,6 +1,9 @@
 h1 {
   font-size: 35px;
   color: #fff;
+  @media screen and (min-width: $sm) {
+    font-size: 50px;
+  }
   @media screen and (min-width: $md) {
     font-size: 70px;
   }
@@ -24,9 +27,12 @@ h4 {
   font-style: italic;
 }
 h5 {
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 700;
   font-style: italic;
+  @media screen and (min-width: $sm) {
+    font-size: 17px;
+  }
 }
 h6 {
   font-size: 12px;

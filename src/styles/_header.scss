@@ -10,13 +10,20 @@
   p {
     margin-bottom: 0;
     a {
-      font-size: 16px;
+      font-size: 12px;
       color: $tht-white;
+      @media screen and (min-width: $md) {
+        font-size: 16px;
+      }
       span {
-        font-size: 18px;
+        font-size: 13px;
         font-weight: 700;
-        letter-spacing: 1.27px;
+        letter-spacing: 0.3px;
         color: $tht-light-blue;
+        @media screen and (min-width: $md) {
+          font-size: 18px;
+          letter-spacing: 1.27px;
+        }
       }
     }
   }
@@ -25,9 +32,10 @@
     margin-bottom: 0;
     li {
       list-style-type: none;
-      margin-left: 15px;
+      margin-left: 25px;
+      display: inline-block;
       @media screen and (min-width: $md) {
-        display: inline-block;
+        margin-left: 15px;
       }
       a {
         color: #e4e8e9;
@@ -43,13 +51,35 @@
   padding: 8px 0;
 }
 .main-navbar.fixed-top{
-  top: 44px;
+  top: 65px;
   transition: all ease 0.3s;
+  @media screen and (min-width: $md) {
+    top: 44px;
+  }
+  .container {
+    padding: 0;
+    @media screen and (min-width: $sm) and (max-width: 991.9px) {
+     max-width: 100%;
+    }
+    @media screen and (min-width: $md) {
+      padding: 0 15px;
+    }
+  }
+  img {
+    width: 90px;
+    @media screen and (min-width: $md) {
+      width: 114px;
+    }
+  }
   .navbar {
     padding-left: 0;
     padding-right: 0;
     .navbar-brand {
       color: $tht-white;
+      margin-left: 15px;
+      @media screen and (min-width: $md) {
+        margin-left: 0;
+      }
     }
     .logo-dark {
       display: none;
@@ -58,16 +88,38 @@
       color: $tht-white;
     }
   }
+  .navbar-text {
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.15px;
+    margin-left: 15px;
+    display: none;
+    @media screen and (min-width: $md) {
+      display: inline-block;
+    }
+  }
 }
 .navbar-nav {
-  margin-right: -21px;
+  padding: 20px 0;
+  @media screen and (min-width: $md) {
+    margin-right: -25px;
+    padding: 0;
+  }
   .nav-link {
-    color: $tht-white;
+    color: $tht-blue;
     line-height: 1.87;
     font-size: 15px;
     font-weight: 600;
     padding: 0 21px!important;
     transition: all aese 0.3s;
+    @media screen and (min-width: $md) {
+      color: $tht-white;
+      line-height: 1.87;
+      font-size: 15px;
+      font-weight: 600;
+      padding: 0 21px!important;
+    }
     &:hover {
       color: $tht-blue;
       background-color: $tht-white;
@@ -75,13 +127,20 @@
     }
   }
   .nav-item {
-    margin-left: 5px;
+    margin: 5px;
+    @media screen and (min-width: $md) {
+      margin: 0 0 0 5px;
+    }
   }
   .nav-item.active {
     a {
-      color: $tht-blue;
-      background-color: $tht-white;
+      color: $tht-white;
+      background-color: $tht-blue;
       border-radius: 14px;
+      @media screen and (min-width: $md) {
+        color: $tht-blue;
+        background-color: $tht-white;
+      }
     }
   }
 }
@@ -96,17 +155,18 @@
       color: $tht-blue;
     }
     .navbar-text {
-      padding-top: 4px;
-      padding-bottom: 4px;
+      display: none;
     }
     .logo {
       display: none;
+      width: 80px;
     }
     .logo-dark {
       display: inline-block;
+      width: 80px;
     }
     .nav-link {
-      color: $tht-blue;
+      color: $tht-grey;
       &:hover {
         color: $tht-white;
         background-color: $tht-blue;
@@ -118,5 +178,12 @@
         background-color: $tht-blue;
       }
     }
+  }
+}
+.navbar-collapse {
+  background-color: $tht-white;
+  position: relative;
+  @media screen and (min-width: $md) {
+    background-color: transparent;
   }
 }

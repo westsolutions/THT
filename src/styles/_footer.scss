@@ -1,17 +1,38 @@
 .footer {
   border-bottom:1px solid $tht-light-blue;
-  padding: 35px 0;
+  padding: 35px 0 0;
+  @media screen and (min-width: $md) {
+    padding: 35px 0;
+  }
   h6 {
     color: $tht-blue;
     letter-spacing: 1.25px;
     margin-bottom: 20px;
+    text-align: center;
+    @media screen and (min-width: $md) {
+      text-align: left;
+    }
   }
   .logos-consultants {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    max-width: 351px;
+    justify-content: center;
+    
+    @media screen and (min-width: $md) {
+      justify-content: space-between;
+      max-width: 351px;
+    }
+    img:nth-of-type(3) {
+      @media screen and (max-width: 767.9px) {
+        width: 120px;
+      }
+    }
+    img:nth-of-type(4), img:nth-of-type(5) {
+      @media screen and (max-width: 767.9px) {
+        width: 145px;
+      }
+    }
   }
   .testimonials-block {
     p {
@@ -21,8 +42,11 @@
     .title {
       color: $tht-light-blue;
       font-style: italic;
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 700;
+      @media screen and (min-width: $md) {
+        font-size: 16px;
+      }
     }
     .bold {
       font-weight: 700;
@@ -35,9 +59,13 @@
     li {
       font-size: 12px;
       line-height: 2.08;
+      text-align: center;
+      @media screen and (min-width: $md) {
+        text-align: left;
+      }
     }
     a {
-      color: $tht-grey;      
+      color: $tht-grey;
     }
   }
   .soc-icons {
@@ -70,6 +98,12 @@
     }
   }
 }
+.footer-column {
+  margin-bottom: 25px;
+  @media screen and (min-width: $md) {
+    margin-bottom: 0;
+  }
+}
 .sub-footer {
   color: $tht-grey;
   font-size: 10px;
@@ -89,9 +123,12 @@
     }
   }
   .ubiweb {
-    text-align: right;
+    text-align: left;
     margin-bottom: 0;
     font-size: 10px;
     line-height: 2.5;
+    @media screen and (min-width: $sm) {
+      text-align: right;
+    }
   }
 }
