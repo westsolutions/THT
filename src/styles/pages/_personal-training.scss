@@ -1,0 +1,86 @@
+.personal-hero-banner {
+  background-image: url(/src/images/personal-training-hero.png);
+  padding-bottom: 80px;
+  @media screen and (max-width: 767.9px) {
+    height: 450px;
+    padding-bottom: 40px;
+  }
+  h1 {
+    margin-bottom: 45px;
+    font-style: italic;
+    font-weight: 700;
+     @media screen and (min-width: $md) {
+      margin-bottom: 134px;
+    }
+    span {
+      font-style: normal;
+      font-size: 30px;
+      font-weight: 400;
+      @media screen and (min-width: $md) {
+        font-size: 40px;
+      }
+    }
+  }
+}
+.personal-programs-section {
+  h3 {
+    margin: 70px 0 50px;
+  }
+  ul {
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
+    min-height: 350px;
+    li {
+      display: inline-block;
+      font-size: 20px;
+      line-height: 2.5;
+    }
+  }
+  .personal-programs-block, .personal-benefits-block {
+    padding: 45px 0 45px;
+    @media screen and (min-width: $md) {
+      padding: 95px 0 125px;
+    }
+  }
+  .personal-programs-block {
+    li:before {
+      content: "";
+      background-image: url(/src/images/f105.svg);
+      width: 9px;
+      height: 16px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+  .personal-benefits-block {
+    li:before {
+      content: "\f00c";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      color: $tht-light-blue;
+      margin-right: 10px;
+    }
+  }
+  .btn-wrapper {
+    text-align: center;
+    .btn.main-btn {
+      width: 200px;
+      padding: 12px;
+      font-size: 17px;
+      font-weight: 700;
+      font-style: italic;
+    }
+  }
+  .border-r {
+    @media screen and (min-width: $md) {
+      border-right: 1px dashed $tht-blue;
+    }
+  }
+}
+.locations-available {
+  padding-bottom: 20px;
+  @media screen and (min-width: $md) {
+    padding-bottom: 100px;
+  }
+}

@@ -190,7 +190,12 @@
     margin-bottom: 30px;
   }
 }
-.training-block-round-container {  
+.training-block-round-container {
+  text-align: center;
+  margin-bottom: 45px;
+  @media screen and (min-width: $md) {
+    margin-bottom: 0;
+  }
   .training-block-round {
     width: 200px;
     height: 200px;
@@ -201,7 +206,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 35px;
+    margin: 0 auto 35px;
   }
   h4 {
     letter-spacing: -0.5px;

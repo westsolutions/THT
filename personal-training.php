@@ -1,36 +1,96 @@
 <?php require_once('header.php'); ?>
 
-<section class="hero-banner home-hero-banner">
-  <div class="hero-gradient"></div>
-  <div class="banner-content">
-    <div class="title-block">
-      <h1><span>A personal trainer</span> in Montreal <br> who will cater to your lifestyle</h1>
+<div class="main-body personal-training-page">
+  <section class="hero-banner personal-hero-banner">
+    <div class="hero-gradient"></div>
+    <div class="banner-content">
+      <div class="title-block">
+        <h1><span>Reach your goals with</span> <br> Personal Training</h1>
+        <img src="src/images/arrow-down.svg" alt="" class="down-arrow">
+      </div>
     </div>
-    <div class="btn-wrapper">
-      <a href="#" class="btn txt-btn">Call for a <span>free</span> consultation</a>
+  </section>
+  <div class="grey-gradient-bg personal-programs-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="title-block dark">
+            <h3>Start achieving your goals by starting with<br> THT® Personal Training</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row white-bg">
+        <div class="col-12 col-sm-6 border-r">
+          <div class="personal-programs-block">
+            <ul>
+              <li>Weight Loss</li><br>
+              <li>Customized Results</li><br>
+              <li>Health Prevention</li><br>
+              <li>Fitness Assessment</li><br>
+              <li>Beginner to Advanced</li><br>
+              <li>Recovery from Injury</li><br>
+              <li>Older Adult</li>
+            </ul>
+            <div class="btn-wrapper">
+              <a href="#" class="btn main-btn">Our trainers</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6">
+          <div class="personal-benefits-block">
+            <ul>
+              <li>Proper Technique</li><br>
+              <li>Injury Prevention</li><br>
+              <li>Getting Results</li><br>
+              <li>Motivation</li><br>
+              <li>Dynamic Training</li><br>
+              <li>Experienced &amp; Insured</li>
+            </ul>
+            <div class="btn-wrapper">
+              <a href="#" class="btn main-btn">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="menu-block">
-      <p>CHOOSE WHAT’S RIGHT FOR YOU:</p>
-      <ul class="banner-menu">
-        <li><a href="#">
-          <span class="icon"><img src="src/images/tht-icons-home.svg" alt=""></span><br>
-          Home Training
-        </a></li>
-        <li><a href="#">
-          <span class="icon"><img src="src/images/tht-icon-senior.svg" alt=""></span><br>
-          Senior Training
-        </a></li>
-        <li><a href="#">
-          <span class="icon"><img src="src/images/golds-logo.png" alt=""></span><br>
-          THT® Gold’s Gyms
-        </a></li>
-        <li><a href="#">
-          <span class="icon"><img src="src/images/share-icon.png" alt=""></span><br>
-          THT® Saint-Lambert Gym
-        </a></li>
-      </ul>
-    </div>
+    <section class="locations-available dark text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3>THT® Personal Training is available <br> at a location that is convinient for you</h3>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-12 col-md-4">
+            <div class="training-block-round-container">
+              <div class="training-block-round">
+                <img src="src/images/golds-logo-big.png" alt="">
+              </div>
+              <h4>THT® Gold’s Gyms</h4>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="training-block-round-container">
+              <div class="training-block-round">
+                <img src="src/images/logo-2.png" alt="">
+              </div>
+              <h4>THT® Saint-Lambert Gym</h4>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="training-block-round-container">
+              <div class="training-block-round">
+                <img src="src/images/logo-3.png" alt="">
+              </div>
+              <h4>Home Training</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
-</section>
+  <div class="btn-wrapper full-width-btn-wrap">
+    <a href="#" class="btn main-btn">Give us a <i>call </i> for more information <span><img src="src/images/arrow.svg" alt=""></span></a>
+  </div>
+</div>
 
 <?php require_once('footer.php'); ?>

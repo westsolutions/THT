@@ -11352,6 +11352,17 @@ body {
   margin-bottom: 30px;
 }
 
+.training-block-round-container {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+@media screen and (min-width: 768px) {
+  .training-block-round-container {
+    margin-bottom: 0;
+  }
+}
+
 .training-block-round-container .training-block-round {
   width: 200px;
   height: 200px;
@@ -11367,7 +11378,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 35px;
+  margin: 0 auto 35px;
 }
 
 .training-block-round-container h4 {
@@ -13071,6 +13082,116 @@ body {
 @media screen and (min-width: 992px) {
   .what-it-take-container .text-part .title {
     font-size: 25px;
+  }
+}
+
+.personal-hero-banner {
+  background-image: url(/src/images/personal-training-hero.png);
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 767.9px) {
+  .personal-hero-banner {
+    height: 450px;
+    padding-bottom: 40px;
+  }
+}
+
+.personal-hero-banner h1 {
+  margin-bottom: 45px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .personal-hero-banner h1 {
+    margin-bottom: 134px;
+  }
+}
+
+.personal-hero-banner h1 span {
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .personal-hero-banner h1 span {
+    font-size: 40px;
+  }
+}
+
+.personal-programs-section h3 {
+  margin: 70px 0 50px;
+}
+
+.personal-programs-section ul {
+  padding-left: 0;
+  list-style-type: none;
+  text-align: center;
+  min-height: 350px;
+}
+
+.personal-programs-section ul li {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 2.5;
+}
+
+.personal-programs-section .personal-programs-block,
+.personal-programs-section .personal-benefits-block {
+  padding: 45px 0 45px;
+}
+
+@media screen and (min-width: 768px) {
+  .personal-programs-section .personal-programs-block,
+  .personal-programs-section .personal-benefits-block {
+    padding: 95px 0 125px;
+  }
+}
+
+.personal-programs-section .personal-programs-block li:before {
+  content: "";
+  background-image: url(/src/images/f105.svg);
+  width: 9px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.personal-programs-section .personal-benefits-block li:before {
+  content: "\F00C";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #7cd2e9;
+  margin-right: 10px;
+}
+
+.personal-programs-section .btn-wrapper {
+  text-align: center;
+}
+
+.personal-programs-section .btn-wrapper .btn.main-btn {
+  width: 200px;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+@media screen and (min-width: 768px) {
+  .personal-programs-section .border-r {
+    border-right: 1px dashed #005686;
+  }
+}
+
+.locations-available {
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .locations-available {
+    padding-bottom: 100px;
   }
 }
 
