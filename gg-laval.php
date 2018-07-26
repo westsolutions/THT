@@ -208,7 +208,7 @@
       </div>
     </div>
   </div>
-  <div class="btn-wrapper">
+  <div class="btn-wrapper full-width-btn-wrap">
     <a href="#" class="btn main-btn">Give us a <i>call</i> for more information <span><img src="src/images/arrow.svg" alt=""></span></a>
   </div>
 </div>

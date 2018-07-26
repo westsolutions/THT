@@ -51,24 +51,3 @@
     }
   }
 }
-.gg-page {
-  .btn-wrapper {
-    .btn.main-btn {
-      width: 100%;
-      padding: 40px 0;
-      font-size: 16px;
-      @media screen and (min-width: $sm) {
-        font-size: 25px;
-      }
-      i {
-        font-weight: bold;
-      }
-      span {
-        margin-left: 10px;
-        @media screen and (min-width: $sm) {
-          margin-left: 30px;
-        }
-      }
-    }
-  }
-}
