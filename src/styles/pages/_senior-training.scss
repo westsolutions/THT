@@ -1,0 +1,168 @@
+.senior-hero-banner {
+  background-image: url(/src/images/senior-training-hero.png);
+  padding-bottom: 80px;
+  @media screen and (max-width: 767.9px) {
+    height: 450px;
+    padding-bottom: 40px;
+  }
+  h1 {
+    margin-bottom: 45px;
+    font-style: italic;
+    font-weight: 700;
+     @media screen and (min-width: $md) {
+      margin-bottom: 100px;
+    }
+    span {
+      font-style: normal;
+      font-size: 30px;
+      font-weight: 400;
+      @media screen and (min-width: $md) {
+        font-size: 40px;
+      }
+    }
+  }
+}
+.senior-text-container {
+  padding: 100px 0 84px;
+}
+.senior-text-block {
+  padding: 20px;
+  @media screen and (min-width: $md) {
+    margin-bottom: 0;
+  }
+}
+.senior-text-section {
+  padding: 65px 0 40px;
+  text-align: center;
+  position: relative;
+  h3 {
+    line-height: 1.5625;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.75;
+    @media screen and (min-width: $md) {
+      font-size: 20px;
+    }
+  }
+  .s-icon-block {
+    position: absolute;
+    top: -126px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+    background-color: $tht-white;
+    width: 233px;
+    height: 233px;
+    text-align: center;
+    padding-top: 31px;
+  }
+}
+.interesting-facts {
+  background-image: linear-gradient(129deg, rgba(124, 210, 233, 0.81) 0%, #005686 100%);
+  text-align: center;
+  padding: 90px 0 50px;
+  h2 {
+    margin-bottom: 30px;
+    @media screen and (min-width: $md) {
+      margin-bottom: 60px;
+    }
+  }
+  .facts-block {
+    border: 1px solid #ffffff;
+    min-height: 276px;
+    max-width: 310px;
+    margin: auto;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    @media screen and (min-width: $md) {
+      margin-bottom: 0;
+      padding: 15px;
+    }
+    @media screen and (min-width: $lg) {
+      padding: 15px 25px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 35px;
+      font-style: italic;
+      margin-bottom: 0;
+      @media screen and (min-width: $md) {
+        font-size: 16px
+      }
+      @media screen and (min-width: $lg) {
+        font-size: 20px
+      }
+      span {
+        font-size: 25px;
+        @media screen and (min-width: $md) {
+          font-size: 18px
+        }
+        @media screen and (min-width: $lg) {
+        font-size: 25px
+      }
+        &.large {
+          display: inline-block;
+          transform: scale(2.2, 1.5);
+        }
+      }
+    }
+  }
+  .facts-text {
+    .title {
+      margin: 45px 0 25px;
+      font-size: 25px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 14px;
+      line-height: 1.4;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+.what-it-take-container {
+  padding: 75px 0;
+  .what-it-take-block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  img {
+    width: 100%;
+    @media screen and (min-width: $md) {
+      width: 41%;
+    }
+  }
+  .text-part {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    @media screen and (min-width: $md) {
+      width: 59%;
+      padding: 60px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 1.57;
+    }
+    .title {
+      font-weight: 700;
+      font-size: 20px;
+      color: $tht-blue;
+      font-style: italic;
+      @media screen and (min-width: $md) {
+        font-size: 18px;
+      }
+      @media screen and (min-width: $lg) {
+        font-size: 25px;
+      }
+    }
+  }
+}

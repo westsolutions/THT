@@ -10,6 +10,7 @@
 
 .white-bg {
   background-color: #fff;
+  color: #474747;
 }
 
 .dark {
@@ -12822,5 +12823,254 @@ body {
 
 .cost-section ul a {
   font-weight: 700;
+}
+
+.senior-hero-banner {
+  background-image: url(/src/images/senior-training-hero.png);
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 767.9px) {
+  .senior-hero-banner {
+    height: 450px;
+    padding-bottom: 40px;
+  }
+}
+
+.senior-hero-banner h1 {
+  margin-bottom: 45px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .senior-hero-banner h1 {
+    margin-bottom: 100px;
+  }
+}
+
+.senior-hero-banner h1 span {
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .senior-hero-banner h1 span {
+    font-size: 40px;
+  }
+}
+
+.senior-text-container {
+  padding: 100px 0 84px;
+}
+
+.senior-text-block {
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .senior-text-block {
+    margin-bottom: 0;
+  }
+}
+
+.senior-text-section {
+  padding: 65px 0 40px;
+  text-align: center;
+  position: relative;
+}
+
+.senior-text-section h3 {
+  line-height: 1.5625;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.senior-text-section p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+@media screen and (min-width: 768px) {
+  .senior-text-section p {
+    font-size: 20px;
+  }
+}
+
+.senior-text-section .s-icon-block {
+  position: absolute;
+  top: -126px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 100%;
+  background-color: #fff;
+  width: 233px;
+  height: 233px;
+  text-align: center;
+  padding-top: 31px;
+}
+
+.interesting-facts {
+  background-image: linear-gradient(129deg, rgba(124, 210, 233, 0.81) 0%, #005686 100%);
+  text-align: center;
+  padding: 90px 0 50px;
+}
+
+.interesting-facts h2 {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .interesting-facts h2 {
+    margin-bottom: 60px;
+  }
+}
+
+.interesting-facts .facts-block {
+  border: 1px solid #ffffff;
+  min-height: 276px;
+  max-width: 310px;
+  margin: auto;
+  padding: 15px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .interesting-facts .facts-block {
+    margin-bottom: 0;
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .interesting-facts .facts-block {
+    padding: 15px 25px;
+  }
+}
+
+.interesting-facts .facts-block p {
+  font-size: 20px;
+  line-height: 35px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .interesting-facts .facts-block p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .interesting-facts .facts-block p {
+    font-size: 20px;
+  }
+}
+
+.interesting-facts .facts-block p span {
+  font-size: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .interesting-facts .facts-block p span {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .interesting-facts .facts-block p span {
+    font-size: 25px;
+  }
+}
+
+.interesting-facts .facts-block p span.large {
+  display: inline-block;
+  -webkit-transform: scale(2.2, 1.5);
+          transform: scale(2.2, 1.5);
+}
+
+.interesting-facts .facts-text .title {
+  margin: 45px 0 25px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.interesting-facts .facts-text p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 25px;
+}
+
+.what-it-take-container {
+  padding: 75px 0;
+}
+
+.what-it-take-container .what-it-take-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.what-it-take-container img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .what-it-take-container img {
+    width: 41%;
+  }
+}
+
+.what-it-take-container .text-part {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .what-it-take-container .text-part {
+    width: 59%;
+    padding: 60px;
+  }
+}
+
+.what-it-take-container .text-part p {
+  font-size: 14px;
+  line-height: 1.57;
+}
+
+.what-it-take-container .text-part .title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #005686;
+  font-style: italic;
+}
+
+@media screen and (min-width: 768px) {
+  .what-it-take-container .text-part .title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .what-it-take-container .text-part .title {
+    font-size: 25px;
+  }
 }
 
