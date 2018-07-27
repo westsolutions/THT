@@ -357,7 +357,7 @@
           </div>
         </div>
         <div class="map-container">
-          <img src="src/images/sl-map.png" alt="">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.29829193167!2d-73.50639468408771!3d45.50407357910142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91ad6f5048f95%3A0xe430c097b864cd24!2zNjAwIEF2ZW51ZSBPYWssIFNhaW50LUxhbWJlcnQsIFFDIEo0UCAyUjYsINCa0LDQvdCw0LTQsA!5e0!3m2!1sru!2sua!4v1532703358670" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
       </div>
     </div>
