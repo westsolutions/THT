@@ -11005,6 +11005,12 @@ h3 {
 
 @media screen and (min-width: 768px) {
   h3 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h3 {
     font-size: 32px;
   }
 }
@@ -11080,6 +11086,7 @@ p .big {
 .gradient-link {
   background-image: linear-gradient(129deg, rgba(124, 210, 233, 0.81) 0%, #005686 100%);
   color: #fff;
+  border: none;
 }
 
 html,
@@ -11111,11 +11118,24 @@ body {
   position: relative;
   background-size: cover;
   background-position: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 @media screen and (min-width: 768px) {
   .hero-banner {
     height: 712px;
+  }
+}
+
+.hero-logo {
+  width: 100px;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-logo {
+    width: 166px;
   }
 }
 
@@ -11279,6 +11299,7 @@ body {
 
 .location-block {
   text-align: center;
+  background-color: #fff;
 }
 
 .location-block .location-content {
@@ -11293,12 +11314,16 @@ body {
 .location-block p {
   font-size: 20px;
   line-height: 1.5;
+  color: #474747;
+}
+
+.location-block.with-img {
+  padding: 35px 30px;
 }
 
 .location-block.with-img img {
   width: 100%;
   height: auto;
-  margin-bottom: 25px;
 }
 
 .location-block .btn {
@@ -12122,7 +12147,7 @@ body {
 .btn-wrapper.full-width-btn-wrap .btn.main-btn {
   width: 100%;
   padding: 40px 0;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 @media screen and (min-width: 576px) {
@@ -12137,12 +12162,22 @@ body {
 
 .btn-wrapper.full-width-btn-wrap .btn.main-btn span {
   margin-left: 10px;
+  width: 17px;
+  height: 14px;
+  display: inline-block;
 }
 
 @media screen and (min-width: 576px) {
   .btn-wrapper.full-width-btn-wrap .btn.main-btn span {
     margin-left: 30px;
+    width: 32px;
+    height: 27px;
   }
+}
+
+.btn-wrapper.full-width-btn-wrap .btn.main-btn span img {
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (min-width: 1350px) {
@@ -13192,6 +13227,130 @@ body {
 @media screen and (min-width: 768px) {
   .locations-available {
     padding-bottom: 100px;
+  }
+}
+
+.gg-landing-page .gg-landing-hero-banner {
+  height: 450px;
+  padding-bottom: 67px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(124, 210, 233, 0.69)), to(#005686));
+  background-image: linear-gradient(to top, rgba(124, 210, 233, 0.69) 0%, #005686 100%);
+}
+
+@media screen and (min-width: 768px) {
+  .gg-landing-page .gg-landing-hero-banner {
+    height: 837px;
+    padding-bottom: 367px;
+    margin-bottom: -300px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .gg-landing-page .gg-landing-hero-banner {
+    margin-bottom: -405px;
+    height: 880px;
+    padding-bottom: 430px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .gg-landing-page .gg-landing-hero-banner {
+    margin-bottom: -236px;
+    height: 837px;
+    padding-bottom: 367px;
+  }
+}
+
+.gg-landing-page h1 {
+  margin-top: 30px;
+}
+
+.gg-landing-section {
+  padding: 40px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .gg-landing-section {
+    padding-bottom: 100px;
+  }
+}
+
+.gg-block-landing {
+  padding: 25px 20px;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .gg-block-landing {
+    padding: 35px 30px;
+    margin-bottom: 0;
+  }
+}
+
+.gg-block-landing h3 {
+  margin-bottom: 0;
+  color: #005686;
+}
+
+.gg-block-landing img {
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 992px) {
+  .gg-block-landing img {
+    margin-top: 40px;
+  }
+}
+
+.gg-block-landing .btn {
+  margin-bottom: 15px;
+  padding: 15px 10px;
+  font-size: 16px;
+  line-height: 1;
+}
+
+@media screen and (min-width: 992px) {
+  .gg-block-landing .btn {
+    padding: 34.5px 10px;
+    font-size: 25px;
+    margin-bottom: 35px;
+  }
+}
+
+.gg-block-landing .btn span {
+  width: 20px;
+  height: 13px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 992px) {
+  .gg-block-landing .btn span {
+    width: 32px;
+    height: 27px;
+  }
+}
+
+.gg-block-landing .btn span img {
+  margin-top: 0;
+}
+
+.gg-block-landing p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #474747;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 992px) {
+  .gg-block-landing p {
+    font-size: 20px;
+    margin-top: 35px;
   }
 }
 

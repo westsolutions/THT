@@ -21,6 +21,9 @@ h3 {
   font-weight: 700;
   font-style: italic;
   @media screen and (min-width: $md) {
+    font-size: 26px;
+  }
+  @media screen and (min-width: $lg) {
     font-size: 32px;
   }
 }

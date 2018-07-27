@@ -8,8 +8,17 @@
   position: relative;
   background-size: cover;
   background-position: center;
+  padding-left: 15px;
+  padding-right: 15px;
   @media screen and (min-width: $md) {
     height: 712px;
+  }
+}
+.hero-logo {
+  width: 100px;
+  height: auto;
+  @media screen and (min-width: $md) {
+    width: 166px;
   }
 }
 .hero-gradient {
@@ -129,6 +138,7 @@
 }
 .location-block {
   text-align: center;
+  background-color: $tht-white;
   .location-content {
     padding: 25px;
   }
@@ -139,12 +149,13 @@
   p {
     font-size: 20px;
     line-height: 1.5;
+    color: $tht-grey;
   }
   &.with-img {
+    padding: 35px 30px;
     img {
       width: 100%;
       height: auto;
-      margin-bottom: 25px;
     }
   }
   .btn {
@@ -178,6 +189,7 @@
     color: $tht-grey;
   }
 }
+
 .programs-block {
   padding: 95px 0 125px;
   h3 {
@@ -686,7 +698,7 @@
   .btn.main-btn {
     width: 100%;
     padding: 40px 0;
-    font-size: 16px;
+    font-size: 14px;
     @media screen and (min-width: $sm) {
       font-size: 25px;
     }
@@ -695,8 +707,17 @@
     }
     span {
       margin-left: 10px;
+      width: 17px;
+      height: 14px;
+      display: inline-block;
       @media screen and (min-width: $sm) {
         margin-left: 30px;
+        width: 32px;
+        height: 27px;
+      }
+      img {
+        width: 100%;
+        height: auto;
       }
     }
   }
