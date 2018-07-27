@@ -22,6 +22,7 @@
       <div class="row white-bg">
         <div class="col-12 col-sm-6 border-r">
           <div class="personal-programs-block">
+            <h3 class="dark">Our Programs</h3>
             <ul>
               <li>Weight Loss</li><br>
               <li>Customized Results</li><br>
@@ -38,6 +39,7 @@
         </div>
         <div class="col-12 col-sm-6">
           <div class="personal-benefits-block">
+            <h3 class="dark">Trainer Benefits</h3>
             <ul>
               <li>Proper Technique</li><br>
               <li>Injury Prevention</li><br>
@@ -61,28 +63,28 @@
           </div>
           <div class="w-100"></div>
           <div class="col-12 col-md-4">
-            <div class="training-block-round-container">
+            <a href="gg-landing.php" class="training-block-round-container">
               <div class="training-block-round">
                 <img src="src/images/golds-logo-big.png" alt="">
               </div>
               <h4>THT® Gold’s Gyms</h4>
-            </div>
+            </a>
           </div>
           <div class="col-12 col-md-4">
-            <div class="training-block-round-container">
+            <a href="saint-lambert.php" class="training-block-round-container">
               <div class="training-block-round">
                 <img src="src/images/logo-2.png" alt="">
               </div>
               <h4>THT® Saint-Lambert Gym</h4>
-            </div>
+            </a>
           </div>
           <div class="col-12 col-md-4">
-            <div class="training-block-round-container">
+            <a href="personal-training.php"  class="training-block-round-container">
               <div class="training-block-round">
                 <img src="src/images/logo-3.png" alt="">
               </div>
               <h4>Home Training</h4>
-            </div>
+            </a>
           </div>
         </div>
       </div>

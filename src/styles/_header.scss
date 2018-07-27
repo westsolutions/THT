@@ -7,8 +7,18 @@
   border-bottom: 1px solid $tht-white;
   width: 100%;
   z-index: 1;
+  .container {
+    @media screen and (min-width: $tht-xl) {
+      min-width: 1314px;
+      max-width: 1314px;
+    }
+  }
   p {
     margin-bottom: 0;
+    width: 100px;
+    @media screen and (min-width: $md) {
+      width: auto;
+    }
     a {
       font-size: 12px;
       color: $tht-white;
@@ -32,10 +42,12 @@
     margin-bottom: 0;
     li {
       list-style-type: none;
-      margin-left: 25px;
-      display: inline-block;
+      display: block;
+      text-align: right;
       @media screen and (min-width: $md) {
         margin-left: 15px;
+        display: inline-block;
+        text-align: left;
       }
       a {
         color: #e4e8e9;
@@ -51,7 +63,7 @@
   padding: 8px 0;
 }
 .main-navbar.fixed-top{
-  top: 65px;
+  top: 88px;
   transition: all ease 0.3s;
   @media screen and (min-width: $md) {
     top: 44px;
@@ -63,6 +75,10 @@
     }
     @media screen and (min-width: $md) {
       padding: 0 15px;
+    }
+    @media screen and (min-width: $tht-xl) {
+      min-width: 1314px;
+      max-width: 1314px;
     }
   }
   img {

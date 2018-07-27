@@ -24,13 +24,16 @@
 }
 .personal-programs-section {
   h3 {
-    margin: 70px 0 50px;
+    margin: 70px 0 65px;
+    line-height: 1.6;
+    text-align: center;
   }
   ul {
     padding-left: 0;
     list-style-type: none;
     text-align: center;
     min-height: 350px;
+    margin-bottom: 32px;
     li {
       display: inline-block;
       font-size: 20px;
@@ -44,6 +47,10 @@
     }
   }
   .personal-programs-block {
+    h3 {
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
     li:before {
       content: "";
       background-image: url(/src/images/f105.svg);
@@ -54,6 +61,10 @@
     }
   }
   .personal-benefits-block {
+    h3 {
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
     li:before {
       content: "\f00c";
       font-family: "Font Awesome 5 Free";
@@ -73,7 +84,9 @@
     }
   }
   .border-r {
-    @media screen and (min-width: $md) {
+    border-bottom: 1px dashed $tht-blue;
+    @media screen and (min-width: $sm) {
+      border-bottom: none;
       border-right: 1px dashed $tht-blue;
     }
   }
@@ -81,6 +94,6 @@
 .locations-available {
   padding-bottom: 20px;
   @media screen and (min-width: $md) {
-    padding-bottom: 100px;
+    padding-bottom: 85px;
   }
 }

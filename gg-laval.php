@@ -17,7 +17,7 @@
         <div class="row">
           <div class="col-12 col-md-4 col-lg-6">
             <div class="gold-gym-block-img">
-              <img src="src/images/gold-gym-ext-min.png" alt="">
+              <img src="src/images/gg-laval1.png" alt="">
             </div>
           </div>
           <div class="col-12 col-md-8 col-lg-6">
@@ -203,7 +203,7 @@
           </div>
         </div>
         <div class="map-container">
-          <img src="src/images/map-laval.png" alt="">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.8501468562863!2d-73.79114008426639!3d45.53322103685585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc92369222b97dd%3A0x169f5af2df80ce74!2sGold&#39;s+Gym+Laval!5e0!3m2!1sru!2sua!4v1532701939081" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
       </div>
     </div>

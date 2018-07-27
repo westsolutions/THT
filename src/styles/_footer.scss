@@ -4,6 +4,12 @@
   @media screen and (min-width: $md) {
     padding: 35px 0;
   }
+  .container {
+    @media screen and (min-width: $tht-xl) {
+      min-width: 1314px;
+      max-width: 1314px;
+    }
+  }
   h6 {
     color: $tht-blue;
     letter-spacing: 1.25px;

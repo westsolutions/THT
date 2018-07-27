@@ -1,5 +1,8 @@
 .video-section, .discount-block {
-  margin: 100px 0;
+  margin: 40px 0;
+  @media screen and (min-width: $md) {
+    margin: 100px 0;
+  }
 }
 .team-section {
   margin-bottom: 20px;
@@ -28,9 +31,12 @@
   }
 }
 .gg-hero-banner {
-  height: 712px;
+  height: 512px;
   background-image: url("/src/images/gg-vsl-hero.png");
   padding-bottom: 60px;
+  @media screen and (min-width: $md) {
+    height: 712px;
+  }
   .hero-logo {
     margin-bottom: 30px;
   }
@@ -41,6 +47,9 @@
 }
 .gold-gym-block-content {
   padding: 30px 20px 0 20px;
+  .btn-wrapper {
+    margin-top: 80px;
+  }
   .btn.main-btn {
     padding: 12px;
     width: 199px;

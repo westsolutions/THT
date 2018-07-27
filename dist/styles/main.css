@@ -10528,8 +10528,22 @@ a.text-dark:focus {
   z-index: 1;
 }
 
+@media screen and (min-width: 1350px) {
+  .sub-navbar .container {
+    min-width: 1314px;
+    max-width: 1314px;
+  }
+}
+
 .sub-navbar p {
   margin-bottom: 0;
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .sub-navbar p {
+    width: auto;
+  }
 }
 
 .sub-navbar p a {
@@ -10564,13 +10578,15 @@ a.text-dark:focus {
 
 .sub-navbar ul li {
   list-style-type: none;
-  margin-left: 25px;
-  display: inline-block;
+  display: block;
+  text-align: right;
 }
 
 @media screen and (min-width: 768px) {
   .sub-navbar ul li {
     margin-left: 15px;
+    display: inline-block;
+    text-align: left;
   }
 }
 
@@ -10593,7 +10609,7 @@ a.text-dark:focus {
 }
 
 .main-navbar.fixed-top {
-  top: 65px;
+  top: 88px;
   -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
@@ -10617,6 +10633,13 @@ a.text-dark:focus {
 @media screen and (min-width: 768px) {
   .main-navbar.fixed-top .container {
     padding: 0 15px;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .main-navbar.fixed-top .container {
+    min-width: 1314px;
+    max-width: 1314px;
   }
 }
 
@@ -10792,6 +10815,13 @@ a.text-dark:focus {
 @media screen and (min-width: 768px) {
   .footer {
     padding: 35px 0;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .footer .container {
+    min-width: 1314px;
+    max-width: 1314px;
   }
 }
 
@@ -11022,7 +11052,7 @@ h4 {
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   font-style: italic;
 }
@@ -11180,6 +11210,7 @@ body {
 @media screen and (min-width: 1200px) {
   .promotion-block {
     max-width: 270px;
+    margin-bottom: 0;
   }
 }
 
@@ -11216,6 +11247,7 @@ body {
   font-size: 17px;
   font-weight: 700;
   font-style: italic;
+  letter-spacing: 0;
 }
 
 .hor-gradient-bg-block {
@@ -11363,6 +11395,12 @@ body {
   color: #474747;
 }
 
+@media screen and (min-width: 992px) {
+  .gold-gym-block p {
+    font-size: 20px;
+  }
+}
+
 .programs-block {
   padding: 95px 0 125px;
 }
@@ -11381,6 +11419,13 @@ body {
 .training-block-round-container {
   text-align: center;
   margin-bottom: 45px;
+  text-decoration: none;
+  color: #005686;
+}
+
+.training-block-round-container:hover {
+  text-decoration: none;
+  color: #005686;
 }
 
 @media screen and (min-width: 768px) {
@@ -11410,6 +11455,7 @@ body {
 .training-block-round-container h4 {
   letter-spacing: -0.5px;
   margin-bottom: 0;
+  text-decoration: none !important;
 }
 
 .team-block {
@@ -11431,7 +11477,7 @@ body {
 
 .team-block .team-block-content {
   border-top: 1px solid #005686;
-  padding: 23px 10px 25px;
+  padding: 23px 8px 25px;
   text-align: center;
 }
 
@@ -11605,6 +11651,9 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -11645,17 +11694,25 @@ body {
 
 .map-block .map-container {
   width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .map-block .map-container {
+    height: 450px;
+  }
 }
 
 @media screen and (min-width: 992px) {
   .map-block .map-container {
     width: 530px;
+    height: 530px;
   }
 }
 
-.map-block .map-container img {
+.map-block .map-container iframe {
   width: 100%;
-  height: auto;
 }
 
 .map-block h3 {
@@ -11738,7 +11795,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .result-block .content-block {
-    padding-left: 125px;
+    padding-left: 95px;
   }
 }
 
@@ -12120,7 +12177,13 @@ body {
 }
 
 .gg-container {
-  padding: 100px 0;
+  padding: 40px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .gg-container {
+    padding: 100px 0;
+  }
 }
 
 .video-section iframe {
@@ -12181,6 +12244,20 @@ body {
   height: auto;
 }
 
+.call-block {
+  color: #fff;
+}
+
+.down-arrow {
+  width: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .down-arrow {
+    width: 51px;
+  }
+}
+
 @media screen and (min-width: 1350px) {
   .home-page .container {
     min-width: 1314px;
@@ -12216,6 +12293,7 @@ body {
   .home-hero-banner h1 {
     font-size: 55px;
     line-height: 84px;
+    margin-bottom: 0;
   }
 }
 
@@ -12293,7 +12371,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .promotions-block .title-block {
-    padding: 0 0 55px;
+    padding: 0 0 65px;
   }
 }
 
@@ -12402,6 +12480,7 @@ body {
 
 .promotion-block p {
   margin-bottom: 7px;
+  line-height: 1.6;
 }
 
 .call-block {
@@ -12420,7 +12499,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .why-train {
-    padding: 80px 0 130px;
+    padding: 80px 0 95px;
   }
 }
 
@@ -12618,7 +12697,14 @@ body {
 
 .video-section,
 .discount-block {
-  margin: 100px 0;
+  margin: 40px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .video-section,
+  .discount-block {
+    margin: 100px 0;
+  }
 }
 
 .team-section {
@@ -12660,9 +12746,15 @@ body {
 }
 
 .gg-hero-banner {
-  height: 712px;
+  height: 512px;
   background-image: url("/src/images/gg-vsl-hero.png");
   padding-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .gg-hero-banner {
+    height: 712px;
+  }
 }
 
 .gg-hero-banner .hero-logo {
@@ -12676,6 +12768,10 @@ body {
 
 .gold-gym-block-content {
   padding: 30px 20px 0 20px;
+}
+
+.gold-gym-block-content .btn-wrapper {
+  margin-top: 80px;
 }
 
 .gold-gym-block-content .btn.main-btn {
@@ -12769,7 +12865,7 @@ body {
   list-style-type: none;
   position: relative;
   font-size: 16px;
-  line-height: 1.75;
+  line-height: 2.2;
 }
 
 @media screen and (min-width: 768px) {
@@ -12913,7 +13009,7 @@ body {
 }
 
 .senior-text-block {
-  padding: 20px;
+  padding: 10px 20px 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -12930,7 +13026,7 @@ body {
 
 .senior-text-section h3 {
   line-height: 1.5625;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   position: relative;
 }
 
@@ -12962,7 +13058,7 @@ body {
 .interesting-facts {
   background-image: linear-gradient(129deg, rgba(124, 210, 233, 0.81) 0%, #005686 100%);
   text-align: center;
-  padding: 90px 0 50px;
+  padding: 90px 0 65px;
 }
 
 .interesting-facts h2 {
@@ -12971,7 +13067,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .interesting-facts h2 {
-    margin-bottom: 60px;
+    margin-bottom: 67px;
   }
 }
 
@@ -13048,7 +13144,7 @@ body {
 }
 
 .interesting-facts .facts-text .title {
-  margin: 45px 0 25px;
+  margin: 50px 0 20px;
   font-size: 25px;
   font-weight: 700;
 }
@@ -13093,13 +13189,13 @@ body {
 @media screen and (min-width: 768px) {
   .what-it-take-container .text-part {
     width: 59%;
-    padding: 60px;
+    padding: 45px 60px;
   }
 }
 
 .what-it-take-container .text-part p {
   font-size: 14px;
-  line-height: 1.57;
+  line-height: 1.6;
 }
 
 .what-it-take-container .text-part .title {
@@ -13107,6 +13203,12 @@ body {
   font-size: 20px;
   color: #005686;
   font-style: italic;
+  line-height: 1.35;
+  margin-bottom: 30px;
+}
+
+.what-it-take-container .text-part .title:nth-of-type(3) {
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -13158,7 +13260,9 @@ body {
 }
 
 .personal-programs-section h3 {
-  margin: 70px 0 50px;
+  margin: 70px 0 65px;
+  line-height: 1.6;
+  text-align: center;
 }
 
 .personal-programs-section ul {
@@ -13166,6 +13270,7 @@ body {
   list-style-type: none;
   text-align: center;
   min-height: 350px;
+  margin-bottom: 32px;
 }
 
 .personal-programs-section ul li {
@@ -13186,6 +13291,11 @@ body {
   }
 }
 
+.personal-programs-section .personal-programs-block h3 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
 .personal-programs-section .personal-programs-block li:before {
   content: "";
   background-image: url(/src/images/f105.svg);
@@ -13193,6 +13303,11 @@ body {
   height: 16px;
   display: inline-block;
   margin-right: 10px;
+}
+
+.personal-programs-section .personal-benefits-block h3 {
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .personal-programs-section .personal-benefits-block li:before {
@@ -13215,8 +13330,13 @@ body {
   font-style: italic;
 }
 
-@media screen and (min-width: 768px) {
+.personal-programs-section .border-r {
+  border-bottom: 1px dashed #005686;
+}
+
+@media screen and (min-width: 576px) {
   .personal-programs-section .border-r {
+    border-bottom: none;
     border-right: 1px dashed #005686;
   }
 }
@@ -13227,7 +13347,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .locations-available {
-    padding-bottom: 100px;
+    padding-bottom: 85px;
   }
 }
 
@@ -13441,7 +13561,8 @@ body {
 
 @media screen and (min-width: 1200px) {
   .locations-landing-page .location-block.location-block-with-text .location-content {
-    padding: 50px 40px;
+    padding: 50px 40px 40px;
+    min-height: 221px;
   }
 }
 
@@ -13453,7 +13574,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .locations-landing-page .location-block.location-block-with-text .btn {
-    padding: 34.5px 10px;
+    padding: 23.5px 10px;
     font-size: 25px;
   }
 }
@@ -13467,8 +13588,8 @@ body {
 
 @media screen and (min-width: 992px) {
   .locations-landing-page .location-block.location-block-with-text .btn span {
-    width: 32px;
-    height: 27px;
+    width: 25px;
+    height: 21px;
   }
 }
 
@@ -13511,6 +13632,7 @@ body {
 @media screen and (min-width: 992px) {
   .locations-landing-page .location-block h3 {
     font-size: 26px;
+    margin-bottom: 20px;
   }
 }
 
@@ -13575,7 +13697,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .locations-landing-page .location-block .btn {
-    padding: 34.5px 10px;
+    padding: 23.5px 10px;
     font-size: 25px;
   }
 }
@@ -13589,8 +13711,8 @@ body {
 
 @media screen and (min-width: 992px) {
   .locations-landing-page .location-block .btn span {
-    width: 32px;
-    height: 27px;
+    width: 25px;
+    height: 21px;
   }
 }
 

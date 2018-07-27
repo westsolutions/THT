@@ -223,7 +223,7 @@
           </div>
         </div>
         <div class="map-container">
-          <img src="src/images/map.png" alt="">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.597536279417!2d-73.70953708426728!3d45.49804873920489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc918029fa0d35b%3A0xd7d6880ea8880aa4!2sGold&#39;s+Gym+Ville+St-Laurent!5e0!3m2!1sru!2sua!4v1532702002867" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
       </div>
     </div>

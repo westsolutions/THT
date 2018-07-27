@@ -26,7 +26,7 @@
   padding: 100px 0 84px;
 }
 .senior-text-block {
-  padding: 20px;
+  padding: 10px 20px 10px;
   @media screen and (min-width: $md) {
     margin-bottom: 0;
   }
@@ -37,7 +37,7 @@
   position: relative;
   h3 {
     line-height: 1.5625;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     position: relative;
   }
   p {
@@ -63,11 +63,11 @@
 .interesting-facts {
   background-image: linear-gradient(129deg, rgba(124, 210, 233, 0.81) 0%, #005686 100%);
   text-align: center;
-  padding: 90px 0 50px;
+  padding: 90px 0 65px;
   h2 {
     margin-bottom: 30px;
     @media screen and (min-width: $md) {
-      margin-bottom: 60px;
+      margin-bottom: 67px;
     }
   }
   .facts-block {
@@ -115,7 +115,7 @@
   }
   .facts-text {
     .title {
-      margin: 45px 0 25px;
+      margin: 50px 0 20px;
       font-size: 25px;
       font-weight: 700;
     }
@@ -146,17 +146,22 @@
     text-align: center;
     @media screen and (min-width: $md) {
       width: 59%;
-      padding: 60px;
+      padding: 45px 60px;
     }
     p {
       font-size: 14px;
-      line-height: 1.57;
+      line-height: 1.6;
     }
     .title {
       font-weight: 700;
       font-size: 20px;
       color: $tht-blue;
       font-style: italic;
+      line-height: 1.35;
+      margin-bottom: 30px;
+      &:nth-of-type(3) {
+        margin-top: 30px;
+      }
       @media screen and (min-width: $md) {
         font-size: 18px;
       }

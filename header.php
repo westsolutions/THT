@@ -36,7 +36,7 @@
 <div class="fixed-top main-navbar">
   <div class="container">
     <nav class="navbar navbar-expand-lg justify-content-between">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/">
         <img src="<?= asset('images/logo.svg') ?>" alt="" class="logo"> <img src="<?= asset('images/logo-dark.svg') ?>" alt="" class="logo-dark">
         <span class="navbar-text"> TOTAL HOME TRAINING</span>
       </a>
@@ -53,7 +53,7 @@
             <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Locations</a>
+            <a class="nav-link" href="locations-landing.php">Locations</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>

@@ -13,19 +13,19 @@
       <div class="menu-block">
         <p>CHOOSE WHAT’S RIGHT FOR YOU:</p>
         <ul class="banner-menu">
-          <li><a href="#">
+          <li><a href="personal-training.php">
             <span class="icon"><img src="src/images/tht-icons-home.svg" alt=""></span><br>
             Home Training
           </a></li>
-          <li><a href="#">
+          <li><a href="senior-training.php">
             <span class="icon"><img src="src/images/tht-icon-senior.svg" alt=""></span><br>
             Senior Training
           </a></li>
-          <li><a href="#">
+          <li><a href="gg-landing.php">
             <span class="icon"><img src="src/images/golds-logo.png" alt=""></span><br>
             THT® Gold’s Gyms
           </a></li>
-          <li><a href="#">
+          <li><a href="saint-lambert.php">
             <span class="icon"><img src="src/images/share-icon.png" alt=""></span><br>
             THT® Saint-Lambert Gym
           </a></li>
@@ -127,7 +127,7 @@
                 <li>Saint-Lamberts Gym</li>
               </ul>
             </div>
-            <div class="btn main-btn">Our services</div>
+            <div class="btn main-btn">Our locations</div>
           </div>
           <div class="train-block">
             <div class="blue-round-icon">
@@ -138,7 +138,7 @@
               <p>A THT® personal trainer is certified and has been under the training of our fitness master Sam Maniatis.</p>
               <p>Sam has over 25 years of personal training experience and has dedicated his life and career to encouraging health and fitness.</p>
             </div>
-            <div class="btn main-btn">Our services</div>
+            <div class="btn main-btn">Meet our trainers</div>
           </div>
           <div class="train-block">
             <div class="blue-round-icon">
@@ -157,7 +157,7 @@
                 <li>Train at our Montreal Gym</li>
               </ul>
             </div>
-            <div class="btn main-btn">Our services</div>
+            <div class="btn main-btn">Get started</div>
           </div>
         </div>
       </div>
@@ -181,7 +181,7 @@
           </div>
         </div>
         <div class="col-12 col-lg-4">
-          <div class="border-block">
+          <div class="border-block text-center">
             <div class="content">
               <h5>My THT® trainer is the greatest!</h5>
               <p>Thank you My THT® trainer for your constant care and motivation. Thanks for always keeping it fun and changing it up!! Training is never boring and never feels like routine! You have the unique ability to take it to the next level. Your love of fitness and wellness is contagious! You’re simply the best!</p>
