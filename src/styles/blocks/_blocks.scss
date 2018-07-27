@@ -152,10 +152,11 @@
     color: $tht-grey;
   }
   &.with-img {
-    padding: 35px 30px;
+    padding-top: 25px;
     img {
       width: 100%;
       height: auto;
+      padding: 0 25px;
     }
   }
   .btn {
